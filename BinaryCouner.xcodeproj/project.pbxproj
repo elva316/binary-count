@@ -13,6 +13,7 @@
 		23C7522E1FB4FE76003ACBF9 /* BinaryCouner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23C7522C1FB4FE76003ACBF9 /* BinaryCouner.xcdatamodeld */; };
 		23C752301FB4FE76003ACBF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C7522F1FB4FE76003ACBF9 /* Assets.xcassets */; };
 		23C752331FB4FE76003ACBF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C752311FB4FE76003ACBF9 /* LaunchScreen.storyboard */; };
+		23C7523B1FB5004F003ACBF9 /* BinaryCounterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C7523A1FB5004F003ACBF9 /* BinaryCounterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		23C7522F1FB4FE76003ACBF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23C752321FB4FE76003ACBF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23C752341FB4FE76003ACBF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C7523A1FB5004F003ACBF9 /* BinaryCounterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryCounterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				23C752251FB4FE76003ACBF9 /* AppDelegate.swift */,
 				23C752271FB4FE76003ACBF9 /* ViewController.swift */,
 				23C752291FB4FE76003ACBF9 /* Main.storyboard */,
+				23C7523A1FB5004F003ACBF9 /* BinaryCounterCell.swift */,
 				23C7522F1FB4FE76003ACBF9 /* Assets.xcassets */,
 				23C752311FB4FE76003ACBF9 /* LaunchScreen.storyboard */,
 				23C752341FB4FE76003ACBF9 /* Info.plist */,
@@ -142,6 +145,7 @@
 				23C752281FB4FE76003ACBF9 /* ViewController.swift in Sources */,
 				23C752261FB4FE76003ACBF9 /* AppDelegate.swift in Sources */,
 				23C7522E1FB4FE76003ACBF9 /* BinaryCouner.xcdatamodeld in Sources */,
+				23C7523B1FB5004F003ACBF9 /* BinaryCounterCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRB2RCLKP4;
 				INFOPLIST_FILE = BinaryCouner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.V.BinaryCouner;
@@ -293,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRB2RCLKP4;
 				INFOPLIST_FILE = BinaryCouner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.V.BinaryCouner;
